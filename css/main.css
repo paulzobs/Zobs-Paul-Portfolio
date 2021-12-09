@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+  margin: 1em;
+}
+
+img {
+  max-width: 200px;
+}
+
+nav
+
+.preview div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portfolio div div {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.congrego h1 {
+  text-align: right;
+}
