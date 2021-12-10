@@ -7,15 +7,33 @@ html {
   margin: 1em;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 img {
   max-width: 200px;
 }
 
-nav
+nav {
+  text-align: right;
+}
+nav ul li {
+  display: inline-flex;
+}
+
+.preview img {
+  max-width: 600px;
+}
 
 .preview div {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.portfolio img {
+  max-width: 400px;
 }
 
 .portfolio div {
@@ -28,6 +46,96 @@ nav
   grid-template-columns: 1fr;
 }
 
+.profile img {
+  max-width: 500px;
+}
+
+.profile section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .congrego h1 {
   text-align: right;
+}
+
+.congrego .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.congrego .header img {
+  max-width: 100%;
+}
+
+.congrego .main img {
+  max-width: 100%;
+}
+
+.eco-smart h1 {
+  text-align: right;
+}
+
+.eco-smart .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.eco-smart .header img {
+  max-width: 100%;
+}
+
+.eco-smart .main img {
+  max-width: 100%;
+}
+
+.lanuitblanche h1 {
+  text-align: right;
+}
+
+.lanuitblanche .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.lanuitblanche .header img {
+  max-width: 100%;
+}
+
+.lanuitblanche .main img {
+  max-width: 100%;
+}
+
+.loews h1 {
+  text-align: right;
+}
+
+.loews .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.loews .header img {
+  max-width: 100%;
+}
+
+.loews .main img {
+  max-width: 100%;
+}
+
+.ps5 h1 {
+  text-align: right;
+}
+
+.ps5 .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.ps5 .header img {
+  max-width: 100%;
+}
+
+.ps5 .main img {
+  max-width: 100%;
 }
